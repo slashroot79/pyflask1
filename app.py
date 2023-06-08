@@ -8,13 +8,13 @@ app = Flask(__name__)
 @app.route('/')
 def root():
    print('Request on root')
-   return "Hello"
+   return "github deployment with oryx build"
 
 
 @app.route('/test')
 def test():
    print('test...')
-   return "test..."
+   return "test...."
 
 if __name__ == '__main__':
    app.run()
